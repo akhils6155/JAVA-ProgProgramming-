@@ -1,4 +1,18 @@
 Introduction:-
             Java Programming involves a two step process compilation and execution. Thesse step
             convert source code into bytecode and then into native code for execution on a machine
-            
+
+How code in Running?
+    i. compilation:
+    - Java compiler translates the source code into bytecode (.class file)
+    - Bytecode is platform independent and can run on any machine with JVM installed
+    - JVM translates the bytecode into native machine code
+    ii. Execution:
+    - JVM loads the native code into memory
+    - JVM executes the native code
+    - JVM provides runtime environment for the program to run
+    iii. Garbage Collection:
+    - JVM automatically frees the memory occupied by the objects that are no longer in use
+    iv. Exception Handling:
+    - JVM provides exception handling mechanism to handle runtime errors
+    
