@@ -1,3 +1,4 @@
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
         //Output
@@ -6,5 +7,13 @@ public class Main {
 
         System.out.println("This is Third line"); //System.out.println() function display the output in the functin always new line
         System.out.println("This is Fourth line");
+
+        //Input
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println("My Name is "+name);
+
+        sc.close();
+
     }
 }
