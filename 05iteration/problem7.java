@@ -1,6 +1,6 @@
 /*
                 Enter the number :
-                4
+                n=4
                    *
                   **
                  ***
